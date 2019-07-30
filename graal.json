@@ -6,11 +6,15 @@
         "name": "<init>",
         "parameterTypes": []
       }
-    ],
-    "fields": [
-      {
-        "name": "resourceLoader"
-      }
     ]
+  },
+  {
+    "name": "org.springframework.context.annotation.ComponentScan",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredClasses" : true,
+    "allPublicClasses" : true
   }
 ]

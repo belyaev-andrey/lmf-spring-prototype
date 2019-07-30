@@ -1,0 +1,16 @@
+[
+  {
+    "name": "org.springframework.context.annotation.ConfigurationClassPostProcessor",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ],
+    "fields": [
+      {
+        "name": "resourceLoader"
+      }
+    ]
+  }
+]

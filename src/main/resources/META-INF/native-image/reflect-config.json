@@ -6,13 +6,6 @@
   "allDeclaredConstructors":true
 },
 {
-  "name":"com.haulmont.joker.demo.DemoAppConfig$$EnhancerBySpringCGLIB$$6b53e46e",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true,
-  "fields":[{"name":"CGLIB$FACTORY_DATA"}]
-},
-{
   "name":"com.haulmont.joker.demo.DemoEventListener",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
@@ -90,16 +83,8 @@
   "allDeclaredMethods":true
 },
 {
-  "name":"org.springframework.cglib.core.MethodWrapper$MethodWrapperKey$$KeyFactoryByCGLIB$$552be97a",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"org.springframework.cglib.proxy.Enhancer$EnhancerKey",
   "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.cglib.proxy.Enhancer$EnhancerKey$$KeyFactoryByCGLIB$$4ce19e8f",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
   "name":"org.springframework.context.annotation.AnnotationScopeMetadataResolver",

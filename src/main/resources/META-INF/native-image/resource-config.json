@@ -1,0 +1,10 @@
+{
+  "resources":[
+    {"pattern":"META-INF/spring.factories"}, 
+    {"pattern":"com/haulmont/joker/demo/"}, 
+    {"pattern":"com/haulmont/joker/demo/DemoEventListener.class"}, 
+    {"pattern":"com/haulmont/joker/demo/HelloBean.class"}, 
+    {"pattern":"org/springframework/stereotype/Component.class"}, 
+    {"pattern":"org/springframework/stereotype/Indexed.class"}
+  ]
+}

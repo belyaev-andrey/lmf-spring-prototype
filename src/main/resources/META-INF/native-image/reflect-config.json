@@ -1,18 +1,18 @@
 [
   {
-    "name": "org.acme.spring.event.DemoAppConfig",
+    "name": "org.acme.spring.event.demo.DemoAppConfig",
     "allDeclaredFields": true,
     "allDeclaredMethods": true,
     "allDeclaredConstructors": true
   },
   {
-    "name": "org.acme.spring.event.DemoEventListener",
+    "name": "org.acme.spring.event.demo.DemoEventListener",
     "allDeclaredFields": true,
     "allDeclaredMethods": true,
     "allDeclaredConstructors": true
   },
   {
-    "name": "org.acme.spring.event.HelloBean",
+    "name": "org.acme.spring.event.demo.HelloBean",
     "allDeclaredFields": true,
     "allDeclaredMethods": true,
     "allDeclaredConstructors": true

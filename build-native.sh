@@ -1,4 +1,5 @@
-native-image --no-server \
+native-image --verbose \
+  --no-server \
   --allow-incomplete-classpath \
   --no-fallback \
   --report-unsupported-elements-at-runtime \

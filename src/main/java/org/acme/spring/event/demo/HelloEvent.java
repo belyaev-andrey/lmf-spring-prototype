@@ -1,4 +1,4 @@
-package com.haulmont.joker.demo;
+package org.acme.spring.event.demo;
 
 import org.springframework.context.ApplicationEvent;
 

@@ -1,6 +1,5 @@
-package com.haulmont.joker.demo;
+package org.acme.spring.event.demo;
 
-import org.springframework.context.ApplicationEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 

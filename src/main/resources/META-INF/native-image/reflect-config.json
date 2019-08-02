@@ -1,139 +1,194 @@
 [
-{
-  "name":"com.haulmont.joker.demo.DemoAppConfig",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.haulmont.joker.demo.DemoEventListener",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"com.haulmont.joker.demo.HelloBean",
-  "allDeclaredFields":true,
-  "allDeclaredMethods":true,
-  "allDeclaredConstructors":true
-},
-{
-  "name":"java.lang.ClassLoader",
-  "methods":[{"name":"defineClass","parameterTypes":["java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }]
-},
-{
-  "name":"java.lang.Object",
-  "allDeclaredMethods":true
-},
-{
-  "name":"java.lang.annotation.Documented",
-  "allDeclaredMethods":true
-},
-{
-  "name":"java.lang.annotation.ElementType",
-  "allDeclaredFields":true
-},
-{
-  "name":"java.lang.annotation.Repeatable",
-  "allDeclaredMethods":true
-},
-{
-  "name":"java.lang.annotation.Retention",
-  "allDeclaredMethods":true
-},
-{
-  "name":"java.lang.annotation.RetentionPolicy",
-  "allDeclaredFields":true
-},
-{
-  "name":"java.lang.annotation.Target",
-  "allDeclaredMethods":true
-},
-{
-  "name":"javax.annotation.Resource"
-},
-{
-  "name":"javax.xml.ws.WebServiceRef"
-},
-{
-  "name":"org.springframework.beans.ExtendedBeanInfoFactory",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.beans.factory.Aware",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"org.springframework.beans.factory.BeanFactoryAware",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"org.springframework.beans.factory.annotation.Autowired",
-  "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
-  "allDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.cglib.core.MethodWrapper$MethodWrapperKey",
-  "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.cglib.proxy.Enhancer$EnhancerKey",
-  "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.context.annotation.AnnotationScopeMetadataResolver",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
-  "allDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.context.annotation.ComponentScan",
-  "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.context.annotation.Configuration",
-  "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"org.springframework.context.annotation.ConfigurationClassPostProcessor",
-  "allDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.context.event.DefaultEventListenerFactory",
-  "allDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.context.event.EventListener",
-  "allDeclaredMethods":true,
-  "allPublicMethods":true
-},
-{
-  "name":"org.springframework.context.event.EventListenerMethodProcessor",
-  "allDeclaredMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"org.springframework.stereotype.Component",
-  "allDeclaredMethods":true
-},
-{
-  "name":"org.springframework.stereotype.Indexed",
-  "allDeclaredMethods":true
-}
+  {
+    "name": "org.acme.spring.event.DemoAppConfig",
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.acme.spring.event.DemoEventListener",
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.acme.spring.event.HelloBean",
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.lang.ClassLoader",
+    "methods": [
+      {
+        "name": "defineClass",
+        "parameterTypes": [
+          "java.lang.String",
+          "byte[]",
+          "int",
+          "int",
+          "java.security.ProtectionDomain"
+        ]
+      },
+      {
+        "name": "defineClass",
+        "parameterTypes": [
+          "java.lang.String",
+          "byte[]",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "java.lang.Object",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.annotation.Documented",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.annotation.ElementType",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.lang.annotation.Repeatable",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.annotation.Retention",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.annotation.RetentionPolicy",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.lang.annotation.Target",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.annotation.Resource"
+  },
+  {
+    "name": "javax.xml.ws.WebServiceRef"
+  },
+  {
+    "name": "org.springframework.beans.ExtendedBeanInfoFactory",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.beans.factory.Aware",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.BeanFactoryAware",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.Autowired",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.cglib.proxy.Enhancer$EnhancerKey",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.AnnotationScopeMetadataResolver",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.context.annotation.ComponentScan",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.Configuration",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.ConfigurationClassPostProcessor",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.context.event.DefaultEventListenerFactory",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.context.event.EventListener",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.context.event.EventListenerMethodProcessor",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.stereotype.Component",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Indexed",
+    "allDeclaredMethods": true
+  }
 ]

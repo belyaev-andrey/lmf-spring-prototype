@@ -190,5 +190,13 @@
   {
     "name": "org.springframework.stereotype.Indexed",
     "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.util.Assert",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.util.StringUtils",
+    "allDeclaredMethods": true
   }
 ]

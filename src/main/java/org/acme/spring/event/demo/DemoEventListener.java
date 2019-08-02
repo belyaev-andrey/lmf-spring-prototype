@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class DemoEventListener {
 
     @EventListener
-    public String handleContextStart(HelloEvent helloEvent) {
+    public String handleHelloEvent(HelloEvent helloEvent) {
         System.out.println("Application event handled: "+helloEvent.getTimestamp());
         return helloEvent.toString();
     }

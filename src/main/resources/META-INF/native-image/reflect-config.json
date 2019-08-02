@@ -1,11 +1,5 @@
 [
   {
-    "name": "org.acme.spring.event.demo.DemoAppConfig",
-    "allDeclaredFields": true,
-    "allDeclaredMethods": true,
-    "allDeclaredConstructors": true
-  },
-  {
     "name": "org.acme.spring.event.demo.DemoEventListener",
     "allDeclaredFields": true,
     "allDeclaredMethods": true,

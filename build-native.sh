@@ -9,4 +9,5 @@ native-image --verbose \
   --initialize-at-build-time=org.springframework.core.annotation.AnnotationFilter \
   --initialize-at-build-time=org.springframework.core.annotation.PackagesAnnotationFilter \
   --initialize-at-build-time=org.springframework.util.StringUtils \
+  --initialize-at-build-time=org.springframework.context.annotation.ScopedProxyMode \
   -jar target/lmf-spring-prototype-1.0-SNAPSHOT.jar
